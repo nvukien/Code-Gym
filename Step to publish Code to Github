@@ -1,0 +1,13 @@
+- Create new repository trên github
+- Tạo 1 thư mục trong máy tính (có thể giống tên repo)
+- Chuyển terminal đến thư mục vừa tạo và dùng lệnh git init để khởi tạo local Repository
+- Sử dụng lệnh git remote add origin để kết nối tới Remote Repo (sử dụng đường dẫn của Remote Repo vừa tạo ở bước 1)
+Ví dụ: git remote add origin https://github.com/CodeGym/abc.git
+- Tạo file mới trong thư mục Local Repo
+- Sử dụng lệnh git add để đưa file vào các chỉ mục của Git.
+Ví dụ: git add README.md
+- Sử dụng lệnh git commit để ghi chú lại các thay đổi
+Ví dụ: git commit -m "Add README.md file"
+(Câu lệnh -m "message" để ghi chú diễn giải lại thay đổi vừa thực hiện)
+- Sử dụng câu lệnh git push để đẩy các thay đổi ở Local Repo lên Remote Repo
+Ví dụ: git push origin master
